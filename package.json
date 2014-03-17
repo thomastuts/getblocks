@@ -1,0 +1,32 @@
+{
+  "name": "getblocks",
+  "version": "0.0.1",
+  "description": "Parses files for specific blocks and returns the lines inside of them",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thomastuts/getblocks.git"
+  },
+  "keywords": [
+    "getblocks",
+    "blocks",
+    "html",
+    "comments"
+  ],
+  "author": "Thomas Tuts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomastuts/getblocks/issues"
+  },
+  "homepage": "https://github.com/thomastuts/getblocks",
+  "devDependencies": {
+    "mocha": "^1.18.0",
+    "chai": "^1.9.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
