@@ -1,6 +1,6 @@
 {
   "name": "getblocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parses files for specific blocks and returns the lines inside of them",
   "main": "index.js",
   "scripts": {
