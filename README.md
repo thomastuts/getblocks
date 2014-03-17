@@ -81,7 +81,7 @@ This example will read a file from the given path, and return any fenced blocks 
 var getblocks = require('getblocks');
 
 getblocks.find({
-  path: 'test/custom.html',
+  content: 'HTML_CONTENT_HERE', // pass HTML content, e.g. from a previously read file
   trimmed: true,
   startTag: '#@',
   endTag: '@#',
